@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/levantamentoterra.png);
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+}
+
+#Gym {
+  text-decoration: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 33px;
+}
+
+.centro {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h1 {
+  color: white;
+  font-size: 101px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+span {
+  color: #f9ef23;
+}
+
+.centro2 {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #f9ef23;
+  padding: 20px;
+  border: 1px solid #f9ef23;
+  width: 200px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#Join {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
